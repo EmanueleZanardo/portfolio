@@ -21,7 +21,7 @@ export function Hero() {
         <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-neutral-300">
           Electronic Engineer with a passion for creating modern and responsive web experiences from scratch.
         </p>
-        <div className="mt-8 flex justify-center gap-4">
+        <div className="mt-8 flex flex-wrap justify-center gap-4">
           <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
             <Link href="#projects">
               Experiences
@@ -36,6 +36,11 @@ export function Hero() {
             <Link href="#contact">
               Contact
             </Link>
+          </Button>
+          <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
+            <a href="https://czpox8o8x6arnxw96txnvt.streamlit.app/" target="_blank" rel="noopener noreferrer">
+              Singularity ETRM
+            </a>
           </Button>
         </div>
       </div>
