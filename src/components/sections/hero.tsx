@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export function Hero() {
   return (
-    <section id="singularity" className="relative h-[calc(100vh)] min-h-[500px] w-full flex items-center justify-center text-center text-white">
+    <section id="hero" className="relative h-[calc(100vh)] min-h-[500px] w-full flex items-center justify-center text-center text-white">
       <Image
         src="https://i.postimg.cc/0j6WsZRn/istockphoto-1372200846-612x612.jpg"
         alt="Emanuele Zanardo"
@@ -37,11 +37,14 @@ export function Hero() {
               Contact
             </Link>
           </Button>
+          
+          {/* IL BOTTONE MODIFICATO È QUESTO QUI SOTTO */}
           <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
             <a href="https://czpox8o8x6arnxw96txnvt.streamlit.app/" target="_blank" rel="noopener noreferrer">
               Singularity ETRM
             </a>
           </Button>
+
         </div>
       </div>
     </section>
