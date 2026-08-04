@@ -38,7 +38,7 @@ export function Hero() {
             </Link>
           </Button>
           <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
-            <Link href="/singularity">
+            <Link href="#singularity">
               Singularity ETRM
             </Link>
           </Button>
